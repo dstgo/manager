@@ -2,9 +2,9 @@ package rpc
 
 import (
 	"github.com/dstgo/kratosx"
-	file "github.com/limes-cloud/resource/api/resource/file/v1"
+	file "github.com/dstgo/resource/api/resource/file/v1"
 
-	"github.com/limes-cloud/manager/api/manager/errors"
+	"github.com/dstgo/manager/api/manager/errors"
 )
 
 const (

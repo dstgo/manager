@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"github.com/limes-cloud/kratosx"
-	"github.com/limes-cloud/manager/internal/types"
+	"github.com/dstgo/kratosx"
+	"github.com/dstgo/manager/internal/types"
 )
 
 type Rbac interface {

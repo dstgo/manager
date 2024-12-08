@@ -3,7 +3,7 @@ package auth
 import (
 	"github.com/dstgo/kratosx"
 
-	v1 "github.com/limes-cloud/manager/api/manager/auth/v1"
+	v1 "github.com/dstgo/manager/api/manager/auth/v1"
 )
 
 // GetAuthInfo 获取实名认证信息

@@ -4,7 +4,7 @@ import (
 	"github.com/dstgo/kratosx"
 	"github.com/dstgo/kratosx/pkg/valx"
 
-	"github.com/limes-cloud/manager/api/manager/errors"
+	"github.com/dstgo/manager/api/manager/errors"
 )
 
 type Auth struct {

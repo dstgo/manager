@@ -5,26 +5,26 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/limes-cloud/manager/internal/pkg/ua"
+	"github.com/dstgo/manager/internal/pkg/ua"
 
 	"github.com/go-kratos/kratos/v2/transport"
 
+	"github.com/dstgo/kratosx"
+	"github.com/dstgo/kratosx/pkg/crypto"
+	"github.com/dstgo/kratosx/pkg/valx"
 	ktypes "github.com/dstgo/kratosx/types"
 	"github.com/forgoer/openssl"
 	kerrors "github.com/go-kratos/kratos/v2/errors"
-	"github.com/limes-cloud/kratosx"
-	"github.com/limes-cloud/kratosx/pkg/crypto"
-	"github.com/limes-cloud/kratosx/pkg/valx"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/limes-cloud/manager/internal/pkg/address"
+	"github.com/dstgo/manager/internal/pkg/address"
 
-	"github.com/limes-cloud/manager/api/manager/errors"
-	"github.com/limes-cloud/manager/internal/conf"
-	"github.com/limes-cloud/manager/internal/domain/entity"
-	"github.com/limes-cloud/manager/internal/domain/repository"
-	"github.com/limes-cloud/manager/internal/pkg/md"
-	"github.com/limes-cloud/manager/internal/types"
+	"github.com/dstgo/manager/api/manager/errors"
+	"github.com/dstgo/manager/internal/conf"
+	"github.com/dstgo/manager/internal/domain/entity"
+	"github.com/dstgo/manager/internal/domain/repository"
+	"github.com/dstgo/manager/internal/pkg/md"
+	"github.com/dstgo/manager/internal/types"
 )
 
 const (

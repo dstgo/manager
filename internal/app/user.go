@@ -3,7 +3,7 @@ package app
 import (
 	"context"
 
-	"github.com/limes-cloud/manager/internal/infra/rpc"
+	"github.com/dstgo/manager/internal/infra/rpc"
 
 	"github.com/dstgo/kratosx"
 	"github.com/dstgo/kratosx/pkg/valx"
@@ -11,13 +11,13 @@ import (
 	"github.com/go-kratos/kratos/v2/transport/http"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/limes-cloud/manager/api/manager/errors"
-	pb "github.com/limes-cloud/manager/api/manager/user/v1"
-	"github.com/limes-cloud/manager/internal/conf"
-	"github.com/limes-cloud/manager/internal/domain/entity"
-	"github.com/limes-cloud/manager/internal/domain/service"
-	"github.com/limes-cloud/manager/internal/infra/dbs"
-	"github.com/limes-cloud/manager/internal/types"
+	"github.com/dstgo/manager/api/manager/errors"
+	pb "github.com/dstgo/manager/api/manager/user/v1"
+	"github.com/dstgo/manager/internal/conf"
+	"github.com/dstgo/manager/internal/domain/entity"
+	"github.com/dstgo/manager/internal/domain/service"
+	"github.com/dstgo/manager/internal/infra/dbs"
+	"github.com/dstgo/manager/internal/types"
 )
 
 type User struct {

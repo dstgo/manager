@@ -7,10 +7,10 @@ import (
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 	"github.com/go-kratos/kratos/v2/transport/http"
 
-	pb "github.com/limes-cloud/manager/api/manager/auth/v1"
-	"github.com/limes-cloud/manager/internal/conf"
-	"github.com/limes-cloud/manager/internal/domain/service"
-	"github.com/limes-cloud/manager/internal/types"
+	pb "github.com/dstgo/manager/api/manager/auth/v1"
+	"github.com/dstgo/manager/internal/conf"
+	"github.com/dstgo/manager/internal/domain/service"
+	"github.com/dstgo/manager/internal/types"
 )
 
 type Auth struct {

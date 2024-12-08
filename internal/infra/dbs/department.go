@@ -6,10 +6,10 @@ import (
 	"sync"
 
 	"github.com/dstgo/kratosx"
-	"github.com/limes-cloud/kratosx/pkg/valx"
+	"github.com/dstgo/kratosx/pkg/valx"
 
-	"github.com/limes-cloud/manager/internal/domain/entity"
-	"github.com/limes-cloud/manager/internal/types"
+	"github.com/dstgo/manager/internal/domain/entity"
+	"github.com/dstgo/manager/internal/types"
 )
 
 const (

@@ -1,13 +1,13 @@
 package service
 
 import (
-	"github.com/limes-cloud/kratosx"
-	"github.com/limes-cloud/kratosx/pkg/valx"
+	"github.com/dstgo/kratosx"
+	"github.com/dstgo/kratosx/pkg/valx"
 
-	"github.com/limes-cloud/manager/api/manager/errors"
-	"github.com/limes-cloud/manager/internal/conf"
-	"github.com/limes-cloud/manager/internal/pkg/md"
-	"github.com/limes-cloud/manager/internal/types"
+	"github.com/dstgo/manager/api/manager/errors"
+	"github.com/dstgo/manager/internal/conf"
+	"github.com/dstgo/manager/internal/pkg/md"
+	"github.com/dstgo/manager/internal/types"
 )
 
 type Auth struct {

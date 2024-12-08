@@ -3,11 +3,11 @@ package service
 import (
 	"github.com/dstgo/kratosx"
 
-	"github.com/limes-cloud/manager/api/manager/errors"
-	"github.com/limes-cloud/manager/internal/conf"
-	"github.com/limes-cloud/manager/internal/domain/entity"
-	"github.com/limes-cloud/manager/internal/domain/repository"
-	"github.com/limes-cloud/manager/internal/types"
+	"github.com/dstgo/manager/api/manager/errors"
+	"github.com/dstgo/manager/internal/conf"
+	"github.com/dstgo/manager/internal/domain/entity"
+	"github.com/dstgo/manager/internal/domain/repository"
+	"github.com/dstgo/manager/internal/types"
 )
 
 type Job struct {

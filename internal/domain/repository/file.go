@@ -1,6 +1,6 @@
 package repository
 
-import "github.com/limes-cloud/kratosx"
+import "github.com/dstgo/kratosx"
 
 type File interface {
 	// GetFileURL 获取指定文件的url

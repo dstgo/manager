@@ -8,13 +8,13 @@ import (
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 	"github.com/go-kratos/kratos/v2/transport/http"
 
-	"github.com/limes-cloud/manager/api/manager/errors"
-	pb "github.com/limes-cloud/manager/api/manager/menu/v1"
-	"github.com/limes-cloud/manager/internal/conf"
-	"github.com/limes-cloud/manager/internal/domain/entity"
-	"github.com/limes-cloud/manager/internal/domain/service"
-	"github.com/limes-cloud/manager/internal/infra/dbs"
-	"github.com/limes-cloud/manager/internal/types"
+	"github.com/dstgo/manager/api/manager/errors"
+	pb "github.com/dstgo/manager/api/manager/menu/v1"
+	"github.com/dstgo/manager/internal/conf"
+	"github.com/dstgo/manager/internal/domain/entity"
+	"github.com/dstgo/manager/internal/domain/service"
+	"github.com/dstgo/manager/internal/infra/dbs"
+	"github.com/dstgo/manager/internal/types"
 )
 
 type Menu struct {

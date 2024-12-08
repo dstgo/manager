@@ -1,15 +1,15 @@
 package service
 
 import (
-	"github.com/limes-cloud/kratosx"
-	"github.com/limes-cloud/kratosx/pkg/tree"
+	"github.com/dstgo/kratosx"
+	"github.com/dstgo/kratosx/pkg/tree"
 
-	"github.com/limes-cloud/manager/api/manager/errors"
-	"github.com/limes-cloud/manager/internal/conf"
-	"github.com/limes-cloud/manager/internal/domain/entity"
-	"github.com/limes-cloud/manager/internal/domain/repository"
-	"github.com/limes-cloud/manager/internal/pkg/md"
-	"github.com/limes-cloud/manager/internal/types"
+	"github.com/dstgo/manager/api/manager/errors"
+	"github.com/dstgo/manager/internal/conf"
+	"github.com/dstgo/manager/internal/domain/entity"
+	"github.com/dstgo/manager/internal/domain/repository"
+	"github.com/dstgo/manager/internal/pkg/md"
+	"github.com/dstgo/manager/internal/types"
 )
 
 type Department struct {

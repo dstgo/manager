@@ -5,8 +5,8 @@ import (
 
 	"github.com/dstgo/kratosx"
 
-	"github.com/limes-cloud/manager/internal/domain/entity"
-	"github.com/limes-cloud/manager/internal/types"
+	"github.com/dstgo/manager/internal/domain/entity"
+	"github.com/dstgo/manager/internal/types"
 )
 
 type Dictionary struct {
